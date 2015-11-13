@@ -2,23 +2,23 @@
 
 ## Installation
 
-// In config/bootstrap.php
-// Loads a single plugin
-Plugin::load('Fyluploader');
+ In config/bootstrap.php
+<br> Loads a single plugin
+ <br>Plugin::load('Fyluploader');
 
-you may need to modify your application’s composer.json file to contain the following information:
- "autoload": {
-"psr-4": {
-    (...)
-    "Fyluploader\\": "./plugins/Fyluploader/src",
-  }
-}
-"autoload-dev": {
-        "psr-4": {
-            (...)
-             "Fyluploader\\Test\\": "./plugins/Fyluploader/tests"
-        }
-    }
+<br>you may need to modify your application’s composer.json file to contain the following information:
+<br>"autoload": { <br>
+"psr-4": { <br>
+    (...)  <br>
+    "Fyluploader\\": "./plugins/Fyluploader/src", <br>
+  } <br>
+} <br>
+"autoload-dev": { <br>
+        "psr-4": { <br>
+            (...) <br>
+             "Fyluploader\\Test\\": "./plugins/Fyluploader/tests" <br>
+        } <br>
+    } <br>
 You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
 
 The recommended way to install composer packages is:
