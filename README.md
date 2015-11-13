@@ -19,10 +19,5 @@
              "Fyluploader\\Test\\": "./plugins/Fyluploader/tests" <br>
         } <br>
     } <br>
-You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
 
-The recommended way to install composer packages is:
-
-```
-composer require your-name-here/fyluploader
 ```
