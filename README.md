@@ -1,6 +1,9 @@
 # Fyluploader plugin for CakePHP
 
+It's a simple and effective file uploading plugin for CakePHP 3.x
 ## Installation
+
+<br> Download the zip file,extract it and put the package in plugins directory.<br>
 
  In config/bootstrap.php
 <br> Loads a single plugin
