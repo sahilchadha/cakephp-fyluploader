@@ -20,4 +20,7 @@
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
+     "extra": {
+        "installer-name": "fylupload"
+    }
 }
