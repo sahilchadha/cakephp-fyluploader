@@ -1,6 +1,6 @@
 <?php
 use Cake\Routing\Router;
 
-Router::plugin('Fyluploader', function ($routes) {
+Router::plugin('cakephp-fyluploader', function ($routes) {
     $routes->fallbacks('DashedRoute');
 });
