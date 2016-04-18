@@ -1,8 +1,8 @@
 <?php
-namespace Fyluploader\Test\TestCase\Controller;
+namespace cakephp-fyluploader\Test\TestCase\Controller;
 
 use Cake\TestSuite\IntegrationTestCase;
-use Fyluploader\Controller\UploadsController;
+use cakephp-fyluploader\Controller\UploadsController;
 
 /**
  * Fyluploader\Controller\UploadsController Test Case
