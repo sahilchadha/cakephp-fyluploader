@@ -1,5 +1,5 @@
 <?php
-namespace Fyluploader\Model\Table;
+namespace cakephp-fyluploader\Model\Table;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
 class UploadsTable extends Table {
