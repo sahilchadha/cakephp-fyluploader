@@ -4,7 +4,8 @@ It's a simple and effective file uploading plugin for CakePHP 3.x
 ## Installation
 
 <br> Download the zip file,extract it and put the package in plugins directory.<br>
-Important: Rename the directory to Fyluploader
+
+Important: Rename the downloade plugin directory to Fyluploader
 
  In config/bootstrap.php
 <br> Loads a single plugin
@@ -24,4 +25,11 @@ Important: Rename the directory to Fyluploader
         } <br>
     } <br>
 
+In plugins\Fyluploader\config\rotes.php :
+<?php
+use Cake\Routing\Router;
+
+Router::plugin('Fyluploader', function ($routes) {
+    $routes->fallbacks('DashedRoute');
+});
 ```
