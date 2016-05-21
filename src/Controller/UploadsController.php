@@ -1,10 +1,10 @@
 
 <?php
-namespace cakephp-fyluploader\Controller;
+namespace Fyluploader\Controller;
 use Cake\ORM\TableRegistry;
 use Cake\Datasource\ConnectionManager;
 use Cake\Log\Log;
-use cakephp-fyluploader\Controller\AppController;
+use Fyluploader\Controller\AppController;
 use Cake\ORM\Table;
 
 /**
