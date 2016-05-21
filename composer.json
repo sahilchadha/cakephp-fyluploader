@@ -1,6 +1,6 @@
 {
-    "name": "sahilchadha/cakephp-fyluploader",
-    "description": "cakephp-fyluploader plugin for CakePHP",
+    "name": "sahilchadha/Fyluploader",
+    "description": "Fyluploader plugin for CakePHP",
     "keywords": ["cakephp", "upload", "files", "behavior", "orm"],
     "type": "cakephp-plugin",
     "require": {
