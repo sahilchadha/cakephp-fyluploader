@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "cakephp-fyluploader\\": "src"
+            "Fyluploader\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "cakephp-fyluploader\\Test\\": "tests",
+            "Fyluploader\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
