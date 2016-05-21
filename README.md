@@ -5,23 +5,24 @@ It's a simple and effective file uploading plugin for CakePHP 3.x
 
 <br> Download the zip file,extract it and put the package in plugins directory.<br>
 
-<strong>Important:</strong> Rename the downloade plugin directory to Fyluploader
+<h1>Important:</h1> Rename the downloaded  folder to Fyluploader
+
 
  In config/bootstrap.php
 <br> Loads a single plugin
- <br>Plugin::load('fyluploader');
+ <br>Plugin::load('Fyluploader');
 
 <br>you may need to modify your application’s composer.json file to contain the following information:
 <br>"autoload": { <br>
 "psr-4": { <br>
     (...)  <br>
-    "Fyluploader\\": "./plugins/fyluploader/src", <br>
+    "Fyluploader\\": "./plugins/Fyluploader/src", <br>
   } <br>
 } <br>
 "autoload-dev": { <br>
         "psr-4": { <br>
             (...) <br>
-             "Fyluploader\\Test\\": "./plugins/fyluploader/tests" <br>
+             "Fyluploader\\Test\\": "./plugins/Fyluploader/tests" <br>
         } <br>
     } <br>
 
