@@ -36,7 +36,7 @@ class UploadsController extends AppController {
 	public function upload() {
 	    $uploads = TableRegistry::get('Uploads');
 	
-		$dsn = 'mysql://root:@localhost/cake_bookmarks';
+		$dsn = 'mysql://root:@localhost/uploader';
 		 ConnectionManager::config('default2',['url'=>$dsn]);
 		$conn = ConnectionManager::get('default2');
 		
